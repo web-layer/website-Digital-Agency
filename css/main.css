@@ -823,7 +823,7 @@ line-height: 1.6em;}
 }
 
 
-.image-svg img
+.image-svg img<
 {
 
 width: 42.2vw;
@@ -892,7 +892,7 @@ width: 42.2vw;
 .popup
 {
     position: fixed;
-    width: 79%;
+    
     /* background: var(--WhiteColor); */
     right: 50%;
     transform: translate(50%, -50%);
@@ -1048,10 +1048,10 @@ font-weight: bold;
 .blog .container .box_blog
 {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
    gap: 10px;
   
-}
+grid-auto-rows: 233px;}
 
 .blog .box{
       background: var(--WhiteColor);
@@ -1087,64 +1087,9 @@ padding: 20px;
 }
 
 
-@media (max-width: 992px){
-
-.blog  .box_blog .box:last-child {
-
-       margin-left: 50%;
-       width: 100%;
-}
-
-}
-
-@media (max-width: 768px){
-
-.blog  .box_blog .box:last-child {
-
-      margin-left: 0;
-       width: 100%;
-}
-
-}
 
 
 
-
-
-@media (max-width: 375px){
-   
-   .blog  .box_blog .box
-   {
-      width: 97%;
-   }
-
-
-.blog  .box_blog .box:last-child {
-
-        width: 97%;
-
-}
-
-
-}
-
-
-@media (max-width: 320px){
-   
-   .blog  .box_blog .box
-   {
-      width: 82%;
-   }
-
-
-.blog  .box_blog .box:last-child {
-
-        width: 82%;
-
-}
-
-
-}
 
 
 /* end blog and box modle */
