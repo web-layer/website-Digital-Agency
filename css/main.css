@@ -892,8 +892,6 @@ width: 42.2vw;
 .popup
 {
     position: fixed;
-    
-    /* background: var(--WhiteColor); */
     right: 50%;
     transform: translate(50%, -50%);
     padding: 26px;
